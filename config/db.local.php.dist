@@ -1,0 +1,9 @@
+<?php
+
+return [
+	'class' => 'yii\db\Connection',
+	'dsn' => 'mysql:host=<-MYSQL_HOST->;dbname=<-MYSQL_DATABASE->', // change <-MYSQL_HOST-> and <-MYSQL_DATABASE->
+	'username' => '<-MYSQL_USER->', // change <-MYSQL_USER->
+	'password' => '<-MYSQL_PASS->', // change <-MYSQL_PASS->
+	'charset' => 'utf8mb4',
+];
